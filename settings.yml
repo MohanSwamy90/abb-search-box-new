@@ -12,7 +12,7 @@ plugin_outlet:
   type: enum
   choices:
     - above-main-container
-    - below-site-header
+    - before-create-topic-button
 
 background_image:
   type: upload
