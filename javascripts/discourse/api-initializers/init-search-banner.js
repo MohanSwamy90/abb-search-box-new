@@ -4,7 +4,7 @@ export default apiInitializer("0.8", (api) => {
   const enableConnectorName = settings.plugin_outlet;
   const disableConnectorName =
     enableConnectorName === "above-main-container"
-      ? "below-site-header"
+      ? "before-create-topic-button"
       : "above-main-container";
 
   api.registerConnectorClass(disableConnectorName, "search-banner", {
