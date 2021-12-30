@@ -1,8 +1,8 @@
 import { apiInitializer } from "discourse/lib/api";
 
 export default apiInitializer("0.8", (api) => {
-  const enableConnectorName = "before-create-topic-button";
-  const disableConnectorName ="above-main-container";    
+  const enableConnectorName = "above-main-container";
+  const disableConnectorName ="before-create-topic-button";    
 
   api.registerConnectorClass(disableConnectorName, "search-banner", {
     shouldRender() {
