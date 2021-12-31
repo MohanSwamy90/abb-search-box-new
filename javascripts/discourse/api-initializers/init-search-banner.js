@@ -4,7 +4,7 @@ export default apiInitializer("0.8", (api) => {
   const enableConnectorName = "above-main-container";
   const disableConnectorName ="before-create-topic-button";    
 
-  api.registerConnectorClass(disableConnectorName, "search-banner", {
+  api.registerConnectorClass("below-site-header", "search-banner", {
     shouldRender() {
       return false;
     },
