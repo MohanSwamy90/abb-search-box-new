@@ -6,7 +6,7 @@ export default apiInitializer("0.8", (api) => {
 
   api.registerConnectorClass("below-site-header", "search-banner", {
     shouldRender() {
-      return false;
+      return true;
     },
   });
 
